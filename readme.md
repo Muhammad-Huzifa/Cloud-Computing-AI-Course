@@ -6,21 +6,20 @@
 
 This repository contains the teaching and practice materials for a 12-week Huawei HCCDA-AI course. The course starts with Python and data handling, moves through machine learning and deep learning, and ends with model serving and cloud deployment.
 
-Each topic is taught through short slides, guided exercises, live coding, and a complete reference notebook. The aim is to help students understand how each part works and then connect the parts into an end-to-end AI system.
+Each topic is taught through short slides, guided exercises, and live coding. The aim is to help students understand how each part works and then connect the parts into an end-to-end AI system.
 
 Huawei HCCDA-AI provides the main course direction, but the practical work is cloud-flexible. Depending on the available accounts, credits, and computing resources, deployment may use Huawei Cloud, Microsoft Azure, Hugging Face Spaces, or another suitable cloud server. The underlying ideas of training, evaluation, API development, pipeline engineering, and deployment remain the same.
 
 ## Learning Method
 
-Every week uses three notebooks with the same core concepts:
+Every week uses two notebooks with the same core concepts:
 
 | Notebook | Purpose |
 | --- | --- |
 | `Student_Tasks.ipynb` | Guided questions and exercises for students to complete |
-| `Live_Code.ipynb` | Code developed step by step during the class |
-| `Perfect_Code.ipynb` | Clean and complete reference solution after the lesson |
+| `Live_Code.ipynb` | Code developed and completed step by step during the class |
 
-This structure allows students to practise independently, follow the classroom implementation, and review a correct final version.
+This structure allows students to practise independently and follow the complete classroom implementation.
 
 ## Planned 12-Week Roadmap
 
@@ -49,8 +48,7 @@ course-repository/
 ├── Week-1/
 │   ├── Code/
 │   │   ├── Student_Tasks.ipynb
-│   │   ├── Live_Code.ipynb
-│   │   └── Perfect_Code.ipynb
+│   │   └── Live_Code.ipynb
 │   └── Slides/
 │       └── Week_1_Slides.pdf
 ├── Week-2/
@@ -74,9 +72,8 @@ Only the PDF version of each slide deck is included on GitHub. The editable Powe
 
 1. Open the folder for the required week.
 2. Read the slide PDF for the main concepts.
-3. Attempt `Student_Tasks.ipynb` before checking the solution.
+3. Complete the exercises in `Student_Tasks.ipynb`.
 4. Follow or repeat the implementation in `Live_Code.ipynb`.
-5. Use `Perfect_Code.ipynb` to review the complete approach.
 
 ## Course Goal
 
