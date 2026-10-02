@@ -20,8 +20,8 @@ Weeks 1 and 2 provide `Live_Code.ipynb` and `Student_Tasks.ipynb`. Weeks 3 and 4
 Use Python 3.11 in a separate environment. Clone and open the project root:
 
 ```bash
-git clone https://github.com/Muhammad-Huzifa/Cloud-Computing-AI-Course.git
-cd Cloud-Computing-AI-Course
+git clone https://github.com/Muhammad-Huzifa/machine-learning-deployment-course.git
+cd machine-learning-deployment-course
 python -m venv .venv
 ```
 
