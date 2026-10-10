@@ -1,9 +1,13 @@
-# Week 1
+# Week 1: Python Foundations
 
-Open the available lesson notebooks, then the corresponding student tasks when provided. Slides are stored as PDF. Dataset folders retain their original paths.
+Learn variables, data types, operators, conditionals, collections, loops, functions, and classes through short classroom examples.
 
-| Material |
-| --- |
-| [Code/Live_Code.ipynb](Code/Live_Code.ipynb) |
-| [Code/Student_Tasks.ipynb](Code/Student_Tasks.ipynb) |
-| [Slides/Huawei_HCCDA_AI_W01.pdf](Slides/Huawei_HCCDA_AI_W01.pdf) |
+| Material | Purpose |
+| --- | --- |
+| [Live_Code.ipynb](Code/Live_Code.ipynb) | Guided Python examples, matrix operations, and class exercises |
+| [Student_Tasks.ipynb](Code/Student_Tasks.ipynb) | Practice tasks for the Python foundations lesson |
+| [Week 1 slides](Slides/Huawei_HCCDA_AI_W01.pdf) | PDF slide deck |
+
+Read the slides, run the live notebook in order, and complete the student tasks.
+
+[Course home](../README.md) · [Next: Week 2](../Week-2/README.md)
