@@ -18,12 +18,17 @@ house_size = st.number_input(
 )
 import numpy as np
 if st.button("Predict"):
-    house_size_scaler = scaler.transform([[house_size]])
-    predicted_price = model.predict(house_size_scaler)
-    Price = np.round(predicted_price[0] , 2)
-    st.success(
-        f"Predicted_Price : {Price}"
-    )
+    if house_size < 1000:
+        st.error("The number should be greater than 1000")
+    if house_size > 15000:
+        st.error("The number should be less than 15000")
+    else:
+        house_size_scaler = scaler.transform([[house_size]])
+        predicted_price = model.predict(house_size_scaler)
+        Price = np.round(predicted_price[0] , 2)
+        st.success(
+            f"Predicted_Price : {Price}"
+        )
 if st.button("Size"):
     shape = model.coef_
     st.success(
