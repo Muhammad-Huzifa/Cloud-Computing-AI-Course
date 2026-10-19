@@ -4,7 +4,7 @@
 
 Teaching materials for a twelve-week Huawei HCCDA-AI course, prepared by [Muhammad Huzifa](https://github.com/Muhammad-Huzifa). The course develops practical skills in Python, data analysis, machine learning, and model deployment.
 
-Materials for **Weeks 1–5** are available below. The remaining weeks follow the [course roadmap](docs/ROADMAP.md) and will be added as teaching progresses.
+Materials for **Weeks 1–6** are available below. Weeks 7–12 follow the [course roadmap](docs/ROADMAP.md) and will be added as teaching progresses.
 
 ## Course materials
 
@@ -14,9 +14,10 @@ Materials for **Weeks 1–5** are available below. The remaining weeks follow th
 | [Week 2](Week-2/README.md) | Python practice, matrix operations, and object-oriented programming | [Lessons and tasks](Week-2/Code/) | [Week 2 slides](Week-2/Slides/Huawei_HCCDA_AI_W02.pdf) |
 | [Week 3](Week-3/README.md) | NumPy, Pandas DataFrames, and TensorFlow regression | [Lesson notebooks](Week-3/Code/) | [Week 3 slides](Week-3/Slides/Huawei_HCCDA_AI_W03.pdf) |
 | [Week 4](Week-4/README.md) | Matplotlib and review of data analysis and regression | [Lesson notebooks](Week-4/Code/) | [Shared Week 3 deck](Week-4/Slides/Huawei_HCCDA_AI_W03.pdf) |
-| [Week 5](Week-5/README.md) | scikit-learn regression, model saving, and a Streamlit prediction app | [Notebook and application](Week-5/code/) | Not yet added |
+| [Week 5](Week-5/README.md) | Simple and multiple regression, model saving, and Streamlit applications | [Notebooks and applications](Week-5/code/) | [Week 5 slides](Week-5/slides/Huawei_HCCDA_AI_W05.pdf) |
+| [Week 6](Week-6/README.md) | Laptop-price regression with preprocessing pipelines and Streamlit | [Notebook and application](Week-6/code/) | Not yet added |
 
-Weeks 1 and 2 include `Live_Code.ipynb` and `Student_Tasks.ipynb`. Weeks 3–5 use topic-specific notebooks and scripts. Week 4 currently reuses the Week 3 PDF deck.
+Weeks 1 and 2 include `Live_Code.ipynb` and `Student_Tasks.ipynb`. Weeks 3–6 use topic-specific notebooks and scripts. Week 5 also includes a [practice copy of the regression notebook](Week-5/student_task/sklearnLR.ipynb). Week 4 currently reuses the Week 3 PDF deck.
 
 ## Getting started
 
@@ -56,7 +57,7 @@ python -m pip install -r requirements-tensorflow.txt
 2. Open a lesson notebook in JupyterLab and run its cells in order.
 3. Complete `Student_Tasks.ipynb` where provided.
 4. Use the accompanying CSV files for data analysis and regression.
-5. In Week 5, train the model before launching the prediction application.
+5. Follow each application's week guide, update any local paths, and train or export its model before launching Streamlit.
 
 ### Dataset paths
 
@@ -68,9 +69,10 @@ When the notebook kernel runs from its `Code/` or `code/` directory, use:
 | --- | --- |
 | Week 3 or 4: `Housing_DataFrame_Basics.ipynb` | `../dataset/Houses/Housing.csv` |
 | Week 3 or 4: `TensorFlow.ipynb` | `../dataset/House_Price/house_price_dataset.csv` |
-| Week 5: `sklearnLR.ipynb` | `../../Week-4/dataset/House_Price/house_price_dataset.csv` |
+| Week 5: `sklearnLR.ipynb`, including the practice copy | `../../Week-4/dataset/House_Price/house_price_dataset.csv` |
+| Week 5 or 6: `multiple-linear-regression.ipynb` | `Laptop_price.csv` |
 
-The NumPy notebooks also contain file-loading examples; check those paths before running the corresponding cells.
+The NumPy notebooks also contain file-loading examples; check those paths before running the corresponding cells. The [Week 5 guide](Week-5/README.md#notebook-paths-and-practice) covers its additional house-price notebooks, and the [Week 6 guide](Week-6/README.md#prepare-the-notebook) explains the laptop dataset and model paths.
 
 ## Run the Week 5 application
 
@@ -84,7 +86,7 @@ python -m streamlit run app.py
 
 Training creates `house_price_model.pkl` and `house_price_scaler.pkl` in the application folder. Keep the terminal in that folder so the application can find both files. Open the local URL printed by Streamlit.
 
-See the [Week 5 guide](Week-5/README.md) for the notebook, application files, and additional practice.
+See the [Week 5 guide](Week-5/README.md) for the multiple-regression house application, laptop example, and classroom practice. The [Week 6 guide](Week-6/README.md) covers the laptop preprocessing pipeline and its Streamlit application.
 
 ## Repository guide
 
@@ -92,7 +94,8 @@ See the [Week 5 guide](Week-5/README.md) for the notebook, application files, an
 | --- | --- |
 | `Week-1/` and `Week-2/` | Live lesson notebooks, student tasks, and PDF slides |
 | `Week-3/` and `Week-4/` | Topic notebooks, PDF slides, and datasets |
-| `Week-5/` | Regression notebook, Streamlit examples, and the house-price application |
+| [Week-5/](Week-5/README.md) | Regression notebooks, house and laptop applications, PDF slides, and a practice notebook |
+| [Week-6/](Week-6/README.md) | Laptop-price notebook, dataset, saved pipeline, and Streamlit application |
 | [requirements.txt](requirements.txt) | Packages for notebooks, classical ML, and Streamlit |
 | [requirements-tensorflow.txt](requirements-tensorflow.txt) | Course packages plus TensorFlow |
 | [docs/ROADMAP.md](docs/ROADMAP.md) | Published topics and planned twelve-week sequence |
