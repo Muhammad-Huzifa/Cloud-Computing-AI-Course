@@ -16,8 +16,9 @@ Materials for **Weeks 1–6** are available below. Weeks 7–12 follow the [cour
 | [Week 4](Week-4/README.md) | Matplotlib and review of data analysis and regression | [Lesson notebooks](Week-4/Code/) | [Shared Week 3 deck](Week-4/Slides/Huawei_HCCDA_AI_W03.pdf) |
 | [Week 5](Week-5/README.md) | Simple and multiple regression, model saving, and Streamlit applications | [Notebooks and applications](Week-5/code/) | [Week 5 slides](Week-5/slides/Huawei_HCCDA_AI_W05.pdf) |
 | [Week 6](Week-6/README.md) | Laptop-price regression with preprocessing pipelines and Streamlit | [Notebook and application](Week-6/code/) | Not yet added |
+| [Week 8](Week-8/README.md) | CNN image classification and transfer learning | [CNN notebook and student task](Week-8/) | [Student task PDF](output/pdf/Week-8_ANN_Transfer_Learning_Student_Task.pdf) |
 
-Weeks 1 and 2 include `Live_Code.ipynb` and `Student_Tasks.ipynb`. Weeks 3–6 use topic-specific notebooks and scripts. Week 5 also includes a [practice copy of the regression notebook](Week-5/student_task/sklearnLR.ipynb). Week 4 currently reuses the Week 3 PDF deck.
+Weeks 1 and 2 include `Live_Code.ipynb` and `Student_Tasks.ipynb`. Weeks 3–6 use topic-specific notebooks and scripts. Week 5 also includes a [practice copy of the regression notebook](Week-5/student_task/sklearnLR.ipynb). Week 4 currently reuses the Week 3 PDF deck. Week 8 includes a CNN lesson and an [image-classification transfer-learning task](Week-8/task/ANN_Transfer_Learning_Student_Task.md).
 
 ## Getting started
 

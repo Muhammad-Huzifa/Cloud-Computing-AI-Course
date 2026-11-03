@@ -11,7 +11,7 @@ The course is planned over twelve weeks. Published rows describe the code curren
 | [5](../Week-5/README.md) | Simple and multiple regression, model saving, and Streamlit | Notebooks, applications, PDF slides, and a practice copy published |
 | [6](../Week-6/README.md) | Laptop-price regression with preprocessing pipelines and Streamlit | Notebook, dataset, saved pipeline, and application published |
 | 7 | Evaluation, feature engineering, and tuning | Planned |
-| 8 | Neural network foundations | Planned |
+| [8](../Week-8/README.md) | Neural network foundations, CNNs, and transfer learning | CNN notebook and student task published |
 | 9 | Computer vision and NLP applications | Planned |
 | 10 | Model saving and API serving | Planned |
 | 11 | Pipeline engineering and cloud deployment | Planned |
